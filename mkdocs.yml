@@ -1,0 +1,6 @@
+site_name: JACoW - CAT
+theme: material
+repo_name: 'jacow-org/docs-CAT'
+repo_url: 'https://github.com/JACoW-org/docs-CAT'
+nav:
+  - Introduction: index.md
