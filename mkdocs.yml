@@ -1,6 +1,27 @@
 site_name: JACoW - CAT
-theme: material
+theme: 
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: light green
+      toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: light green
+      toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
 repo_name: 'jacow-org/docs-CAT'
 repo_url: 'https://github.com/JACoW-org/docs-CAT'
+plugins:
+  - privacy
+  - search
+  - open-in-new-tab:
+      add_icon: true
 nav:
   - Introduction: index.md
